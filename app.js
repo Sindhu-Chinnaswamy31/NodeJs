@@ -2,6 +2,7 @@ const data = require("./xyz.js"); //require is a function, import one module to 
 // const {x, calculateSum} = require("./calculate/sum.js")// .js is not required and can be ommited and this is defalut way to import module
 // const {calculateMultiply} = require("./calculate/multiply.js")// .js is not required and can be ommited and this is defalut way to import module
 const Jsondata = require("./data.json");
+const util = require("node:util");
 const {calculateMultiply, calculateSum} = require("./calculate");//index.js aautomaticaly taken here
 // import { x, calculateSum } from "./sum.js";// ES6 import way
 var name = "Sindhu C";
